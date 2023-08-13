@@ -1,11 +1,7 @@
-document.addEventListener("DOMContentLoaded", function() {
-    const container = document.getElementById("saludar");
-    const miBoton = document.getElementById("saludar");
-    
-    container.style.padding = "5px";
-    container.style.backgroundColor = "green";
+document.addEventListener('DOMContentLoaded', function() {
+  const divContenedor = document.querySelector('.div-contenedor');
+
+  divContenedor.addEventListener('click', function() {
+    alert('Hola! Soy el div!!!');
   });
-
-
-
-
+});
